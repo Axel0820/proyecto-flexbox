@@ -1,0 +1,154 @@
+body {
+    font-family: 'Rajdhani', sans-serif;
+    background-color: #0f1923;
+    color: #eaeaea;
+    padding: 1%;
+    line-height: 1.6;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #0f1923;
+  flex-wrap: wrap;
+ 
+  border-bottom: solid #ff4655;
+  
+}
+.navbar a {
+    text-decoration: none;
+    color: #eaeaea;
+    text-decoration: none;
+    margin: 1%;
+    font-size: 175%;
+    position: relative;
+    
+}
+.navbar a:hover {
+    color: #ff4655;
+}
+footer {
+    background-color: #0f1923;
+                            
+}
+.contenido-inicio .TablaImg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+     
+                     
+}
+
+.contenido-inicio img {
+    
+    height: auto;
+    border: solid #ff4655;
+    height:30%; 
+    width: 30%;
+
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 30%;
+}
+table, th, td {
+    height:30%; 
+    width: 30%;
+    border: solid #060511;
+    padding: 8%;
+                        
+}
+
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid #ff4655 ;
+    
+}
+
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    max-width: 400%;
+    padding: 3%;
+}
+button {
+    padding: 5%;
+    background-color: #ff4655;
+    color: white;
+    border: none;
+                        
+}
+
+button:hover {
+    background-color: white;
+    color: #000000;
+}
+.armas-img {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+  
+}
+
+.armas {
+    list-style: none;
+  
+}
+
+.armas li {
+    background-color: #1a2632;
+    color: #eaeaea;
+    padding: 2%;
+    font-size: 80;
+    height:8%; 
+    width: 400%;
+  
+  
+}
+
+.armas-img img {
+    flex-wrap: wrap;
+    width: 50%; 
+    height: 50%;
+    border:solid#ff4655;
+  
+}
+
+.cajas {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.caja2 {
+    flex: 46%; 
+    background-color: #1a2632;
+    color: #eaeaea;
+    
+    border: solid #ff4655;
+  
+}
+
+.caja2 h3 {
+    color: #ff4655;
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
